@@ -19,7 +19,7 @@ $STD rc-service transmission-daemon start
 $STD rc-service transmission-daemon stop
 
 FOLDER_PATH="/var/lib/transmission/config"
-mkdir -p $FOLDER_PATH
+# mkdir -p $FOLDER_PATH
 
 FILE_PATH=$FOLDER_PATH"/settings.json"
 
